@@ -16,7 +16,11 @@ console.log(money);
 
 //O Array é um objeto global usado na construção de 'arrays': objetos de alto nível semelhantes a listas. 
 
-//As Funções são trechos de códigos que podem ser reutilizados 
+//As Funções são trechos de códigos que podem ser reutilizados
+
+//O "return" encerra a função e retorna um valor
+
+//DOM: Document Object Model; a estrutura como o objeto é formado
 
 
 
@@ -25,6 +29,7 @@ console.log(money);
 
 
 let cor ="verde"; //Nessa linha, se eu escrever "amarelo" no lugar do "verde", por exemplo, a ação mudará para "atenção". 
+                  //O comando "switch" (que escrevi no outro documento JS) pode ser usado para substituir os "if"   
 
 if (cor === "verde") {
 
