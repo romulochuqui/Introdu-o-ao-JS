@@ -60,3 +60,14 @@ carros.forEach(function(value, index){
     console.log(index, value);
 
 });
+
+
+//ORIENTAÇÃO À OBJETOS - É UMA FORMA DE PROGRAMAR QUE REUTILIZAMOS CÓDIGOS. DEIXA LIMPO E FUNCIONAL.
+
+//"this" é um comando interno usado para referenciar um atributo, um método dentro de uma classe.
+//Uma claase é um conjunto de atributos e métodos.
+//ATRIBUTO - minhas informações armazenadas;
+//MÉTODO - as ações que devem acontecer.
+//INSTÂNCIA É QUANDO O OBJETO REPRESENTA UMA CLASSE
+
+//Quanto mais inteligente for sua classe, mais limpo será seu código
