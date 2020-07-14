@@ -35,3 +35,28 @@ document.addEventListener('click', event => {
     console.log("CLICK");
 
 });
+
+
+
+//Para mostrar datas 
+let agora = new Date();
+
+console.log(agora.toLocaleDateString("pt-BR"));
+
+
+
+
+//_______________________________________________________
+//Criando ARRAYS
+let carros = ["palio 98", "toro", "uno", 10, true, new Date(), function(){}]; //A lista de itens sempre começa em 0. Como exemplo: "palio 98" está ocupando a posição 0.
+
+console.log(carros);        //Isso me mostra tudo dentro do Array
+console.log(carros.length); //Mostra a quantidade de itens 
+console.log(carros[0]);     //Aqui posso pegar qualquer informação contida dentro do Array por número.
+console.log(carros[5].getFullYear());
+
+carros.forEach(function(value, index){
+
+    console.log(index, value);
+
+});
